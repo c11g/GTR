@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "go to rawgit.com",
+	"description": "현재 페이지를 rawgit.com으로 보내서 github에서 html 파일을 볼 수 있도록 한다.",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+		"tabs"
+	]
+}
